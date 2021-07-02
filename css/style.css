@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    font-family: GalanoGrotesqueAlt, Helvetica Neue, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: auto;
+  }
+
+  body{
+    background-color: rgb(26, 233, 207);
+  }
+
+.background{
+    background-image: url(../img/8.png);
+    height: 100vh;    
+    background-image: url(../img/8.png);
+    background-size: 256vh 100vh;
+    background-position: -50vh center;
+    background-repeat: no-repeat;
+}
+
+nav{
+    float: left;
+    width: 1200px;
+    margin-top: 20px;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav p {
+    float: left;
+}
+nav p a span,nav ul li a{
+    color: #0869b2;
+    text-decoration: underline;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+nav p a span:hover,nav ul li a:hover{
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    text-decoration: none;
+} 
+
+nav ul li{
+    float: left;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.title {
+    clear: both;
+    height: 95px;
+    background-color: #0fceb67a;
+    margin-top: 48px;
+    position: relative;
+    top: 16px;
+    width: auto;
+}
+
+.title p {
+    text-align: center;
+    padding: -9vh 20vh;
+    font-family: 'Rock Salt', cursive;
+    font-size: 52px;
+    color: #0869b2;
+    position: relative;
+    top: -15px;
+}
+
+.images .img14{
+    position: relative;
+    top: 264px;
+    left: 56px;
+}
+
+.images #img1{
+    position: absolute;
+    height: 215px;
+    width: 298px;
+    left: 894px;
+    top: 452px;
+    z-index: 1;
+}
+    
+
+.images #bee{
+    position: absolute;
+    left: 180vh;
+    top: 25vh;
+}
+
+.images #bee2{
+    position: absolute;
+    left: 160vh;
+    top: 40vh;
+}
+
+.images #bee1{
+    height:200px;
+    position: absolute;
+    left:150px
+    
+}
+
+.images #img2 {
+    height:100px;
+
+}
+
+.images #img15{
+    height: 300px;
+    position: absolute;
+    top: 253px;
+    left: 158vh;
+    z-index: 0;
+}
+.secondpage{
+    background-image: url(../img/back2.png);
+    background-repeat: no-repeat;
+    background-size: 206vh 100vh;
+    height: 658px;
+}
+
+#button{
+    position: relative;
+    left: 74vh;
+    top: 18vh;
+    padding: 30px 112px;
+    background-color: #03a1b5cf;
+    border-radius: 74px;
+    text-decoration: none;
+    color: #e4ff00;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 2;
+    
+}
+
+#button:hover{
+    opacity: 0.8;
+    color:white;
+}
+
+#child{
+    height: 290px;
+    position: absolute;
+    left: 85vh;
+    top: 56vh;
+}
+
+
+#img2,#imgalpha{
+    height: 300px;
+    position: absolute;
+    top: 123vh;
+    border-radius: 20%;
+    left: 27vh;
+    cursor: pointer;
+}
+
+#imgalpha{
+    position: absolute;
+    left: 109vh;
+    width: 69vh;
+}
+
+#img2:hover,#imgalpha:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.copyright{
+    color:#0869b2;
+    font-size: 20px;
+    height:40px;text-align: center;
+    margin-top: 20px;
+}
+
+
+.flash{
+    
+    background-color: #0869b2;
+    width: 20px;
+    padding: 14px 24px;
+    color: #FFF;
+    border-radius: 100%;
+    text-align: center;
+    position: absolute;
+    left: 192vh;
+    top: 147vh;
+}
+
+.flash svg{
+    color:#FFF;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 25px;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+    body{
+        background-size: 258vh 179vh;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 2200px) and (min-width: 1600px){
+    .secondpage {
+        background-image: url(../img/back2.png);
+        background-repeat: no-repeat;
+        background-size: 206vh 100vh;
+        height: 788px;
+    }
+
+    .images #img1 {
+        position: absolute;
+        height: 300px;
+        width: 400px;
+        left: 982px;
+        top: 432px;
+        z-index: 1;
+    }
+
+    .images #img15 {
+        height: 300px;
+        position: absolute;
+        top: 357px;
+        left: 158vh;
+        z-index: 0;
+    }
+
+    .images .img14 {
+        position: relative;
+        top: 339px;
+        left: 56px;
+    }
+
+
+
+}

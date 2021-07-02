@@ -1,0 +1,92 @@
+*{
+    margin:0 ;
+
+}
+
+.background{
+    background-image: url(../img/alphabet.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: 100%;
+}
+
+.background img{
+    height: 100px;
+    margin-left: 30px;
+    cursor: pointer;
+    mix-blend-mode: multiply;
+}
+
+.background img:hover{
+    transform: scale(1.5)
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1190px;
+    height: 20px;
+    margin-left: 123px;
+    padding: 136px 5px;
+}
+
+
+.background a{
+    text-decoration: none;
+    padding: 16px 22px;
+    background-color: rgb(26, 134, 148);
+    color: #FFF;
+    margin: 20px;
+    /* margin-top: 51px; */
+    position: relative;
+    top: 35px;
+    border-radius: 39%;
+    left: 21px;
+    font-size: 20px;
+}
+
+.background a:hover{
+    opacity: 0.8;
+}
+
+#back{
+    position: absolute;
+    top: -1vh;
+    left: -1vh;
+    padding: 9px 14px;
+}
+#video{
+    position: absolute;
+    top: 84vh;
+    left: 143vh;
+    padding: 22px 56px;
+    border-radius: 2% 72px;
+    background-color: red;
+}
+
+.background p{
+    position: absolute;
+    top: 91vh;
+    left: 30vh;
+    font-size: 35px;
+    text-decoration: underline;
+    color: #045494;
+}
+
+
+
+@media only screen and (max-width: 2200px) and (min-width: 1600px){
+    .images{
+        margin-left: 208px;
+        position: absolute;
+        top: 48px;
+        left: 1vh;
+    }
+}
+
+#videos1{
+    height: 95vh;
+    width: 170vh;
+    margin-left: 164px;
+    margin-top: -7px;
+}

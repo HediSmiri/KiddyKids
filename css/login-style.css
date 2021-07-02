@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    height: 95vh;
+    background-color: #333;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 10%, rgba(92, 77, 66, 0.8) 1%), url(../img/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+h1 {
+    color: white;
+    padding-top: 60px;
+    line-height: 50px;
+    text-align: center;
+}
+.login {
+    background-color: rgba(07, 5, 9, 0.8);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.login input[type="text"],.login input[type="password"] {
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 14px 40px;
+    border-radius: 24px;
+    margin: 20px auto;
+    text-align: center;
+    width: 200px;
+    background: none;
+    border: 2px solid rgb(80, 80, 155);
+    transition: 0.25s;
+}
+
+.login input[type="text"]:hover,.login input[type="password"]:hover {
+    border-color: seagreen;
+    width: 250px;
+}
+.login input[type="submit"] {
+    display: block;
+    padding: 14px 24px;
+    border-radius: 24px;
+    margin: 20px auto;
+    text-align: center;
+    width: 200px;
+    background-color: rgb(80, 80, 155);
+    border: 2px solid rgb(80, 80, 155);
+    color: white;
+}
+.login input[type="submit"]:hover {
+    background-color: #2ecc71;
+    border: 2px solid #2ecc71;
+    cursor: pointer;
+}
+a {
+    color: grey;
+    position: relative;
+    text-decoration: none;
+    padding-left: 60px;
+    line-height: 20px;
+}
+a:hover {
+    opacity: 0.8;
+    color: white }
+#back {
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    position: relative;
+    top: 60px;
+    left: 20px;
+    background-color: rgba(07, 5, 9, 0.4);
+    border-radius: 20px 20px;
+    padding: 10px 20px;
+}

@@ -1,0 +1,165 @@
+@media only screen and (max-width: 2200px) and (min-width: 1600px){
+}
+
+* {
+    margin: 0;
+    font-family: GalanoGrotesqueAlt, Helvetica Neue, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+  }
+
+.background{
+    background-image: url(../img/homepage-bg.svg);
+    height: 100vh;
+    background-position: 22% 100%;
+    background-size: cover;
+}
+
+.background a{
+    text-decoration: none;
+    padding: 16px 22px;
+    background-color: rgb(26, 134, 148);
+    color: #FFF;
+    margin: 20px;
+    /* margin-top: 51px; */
+    position: relative;
+    top: 35px;
+    border-radius: 39%;
+    left: 21px;
+    font-size: 20px;
+}
+
+.background a:hover{
+    opacity: 0.8;
+}
+
+.background p{
+    text-align: center;
+    padding: 1vh 20vh;
+    font-family: 'Rock Salt', cursive;
+    font-size: 35px;
+    color:#0869b2;
+    text-decoration: underline;
+}
+#img1{
+    height: 100px;
+    position: absolute;
+    bottom: 41vh;
+    left: 16vh;
+}
+
+#img2{
+    position: absolute;
+    bottom: 0vh;
+    left: 160vh;
+    height: 202px;
+    transform: rotate(0deg);
+}
+
+#img3{
+    position: absolute;
+    bottom: 2px;
+    left: -13px;
+    height: 206px;
+    transition: 55px;
+    transform: rotate(-1deg);
+}
+#zero,#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten{
+    height: 150px;
+    position: absolute;
+    bottom: 62vh;
+    left: 35vh;
+    cursor: pointer;
+    border-radius: 19%;
+}
+
+#one{
+    position: absolute;
+    bottom: 62vh;
+    left: 62vh;
+}
+
+#two{
+    position: absolute;
+    bottom: 62vh;
+    left: 89vh;
+}
+
+#three{
+    position: absolute;
+    bottom: 62vh;
+    left: 116vh;
+}
+
+#four{
+    position: absolute;
+    bottom: 62vh;
+    left: 143vh;
+}
+
+#five{
+    position: absolute;
+    bottom: 62vh;
+    left: 170vh;
+}
+
+#six{
+    bottom: 31vh;
+}
+
+#seven{
+    bottom: 31vh;
+    left: 62vh;
+}
+
+#eight{
+    bottom: 31vh;
+    left: 89vh;
+}
+
+#nine{
+    bottom: 31vh;
+    left: 117vh;
+}
+
+#ten{
+    bottom: 31vh;
+    left: 145vh;
+}
+
+.last{
+    position: relative;
+    left: 10vh;
+    width: 20px;
+}
+
+#ii,#cat{
+    position: absolute;
+    bottom: 0vh;
+    height: 222px;
+    left: 114vh;
+}
+
+#cat{
+    height: 211px;
+    left: 50vh;
+    bottom: 0vh;
+}
+#zero:hover,#one:hover,#two:hover,#three:hover,#four:hover,#five:hover,#six:hover,#seven:hover,#eight:hover,#nine:hover,#ten:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+#video{
+    position: absolute;
+    left: 183vh;
+    top: 1vh;
+    border-radius: 30%;
+}
+
+
+#videoss{
+    height: 95vh;
+    width: 170vh;
+    margin-left: 164px;
+    margin-top: -7px;
+}
